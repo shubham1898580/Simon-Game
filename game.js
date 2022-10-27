@@ -1,4 +1,4 @@
-
+//Start of function
 var buttonColours = ["red", "blue", "green", "yellow"];
 
 var gamePattern = [];
@@ -25,7 +25,7 @@ $(".btn").click(function() {
 
   checkAnswer(userClickedPattern.length-1);
 });
-
+//Answer checking function
 function checkAnswer(currentLevel) {
 
     if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
